@@ -1,0 +1,27 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "pawprint",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-05-29",
+	"observability": {
+		"enabled": true
+	},
+	"assets": {
+		"directory": "./public/",
+		"binding": "ASSETS"
+	},
+	"kv_namespaces": [
+		{
+			"binding": "CONFIG_KV",
+			"id": "dba388d8ab3949dd9305d352dd67a510"
+		}
+	],
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "pawprint-analytics",
+			"database_id": "5adcf020-49eb-4de7-9669-636ca429c2f8",
+			"migrations_dir": "./migrations"
+		}
+	]
+}

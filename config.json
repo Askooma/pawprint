@@ -1,0 +1,37 @@
+{
+	"name": "Your Name",
+	"bio": "A short bio about yourself.",
+	"avatar": "https://placehold.co/150/png",
+	"header": "",
+
+	"links": [
+		{ "title": "My Website", "url": "https://example.com", "icon": "globe", "emphasize": true },
+		{ "title": "My Blog", "url": "https://blog.example.com", "icon": "pencil" },
+		{ "title": "Support Me", "url": "https://ko-fi.com/example", "icon": "heart" }
+	],
+
+	"socials": [
+		{ "platform": "github", "url": "https://github.com/example" },
+		{ "platform": "twitter", "url": "https://twitter.com/example" }
+	],
+
+	"socialPreview": {
+		"title": "",
+		"description": "",
+		"image": ""
+	},
+
+	"theme": {
+		"gradient": "sunset",
+		"backgroundBlur": 0,
+		"textColor": "#000000",
+		"buttonStyle": "filled",
+		"buttonColor": "#6c63ff",
+		"buttonTextColor": "#ffffff",
+		"buttonRadius": "12px",
+		"font": "Nunito",
+		"container": "filled",
+		"containerColor": "#ffffff",
+		"containerRadius": "12px"
+	}
+}
